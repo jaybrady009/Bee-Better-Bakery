@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bread Types - Bee Better Bakery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f1e8;
+        }
+        h1 {
+            color: #8b6f47;
+            text-align: center;
+        }
+        .bread-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .bread-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .bread-card h2 {
+            color: #8b6f47;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Bread Selection</h1>
+    
+    <div class="bread-container">
+        <div class="bread-card">
+            <h2>White Bread</h2>
+            <p>Our classic white bread, soft and fluffy with a light, airy crumb. Perfect for sandwiches and toast.</p>
+        </div>
+        
+        <div class="bread-card">
+            <h2>Wheat Bread</h2>
+            <p>Wholesome wheat bread made with whole grain flour. Hearty and nutritious with a rich, earthy flavor.</p>
+        </div>
+        
+        <div class="bread-card">
+            <h2>Cinnamon Raisin</h2>
+            <p>Sweet and aromatic cinnamon swirled bread with plump raisins. Great for breakfast or as a treat.</p>
+        </div>
+    </div>
+</body>
+</html>
